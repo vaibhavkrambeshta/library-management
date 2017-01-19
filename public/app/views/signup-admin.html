@@ -1,0 +1,11 @@
+<div class="login">
+    <h1>Admin Signup.</h1>
+    <form method="post">
+        <input type="text" name="u" placeholder="Username" required="required" ng-model = "username"/>
+        <input type="text" name="name" placeholder="Nameame" required="required" ng-model = "name"/>
+        <input type="email" name="email" placeholder="Email" required="required" ng-model = "email"/>
+        <input type="text" name="number" placeholder="Contact Number" required="required" ng-model = "contact"/>
+        <input type="password" name="p" placeholder="Password" required="required" ng-model = "password"/>
+        <button type="submit" class="btn btn-primary btn-block btn-large" ng-click = "signip(username, name, email, contact, password)">register</button>
+    </form>
+</div>

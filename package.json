@@ -1,0 +1,24 @@
+{
+  "name": "library_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.21",
+    "mongoose": "^4.7.7"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "html-escape": "^2.0.0",
+    "path": "^0.12.7",
+    "querystring": "^0.2.0",
+    "mongodb": "^2.2.21"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vaibhav",
+  "license": "ISC"
+}
